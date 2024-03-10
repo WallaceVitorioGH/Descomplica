@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1></h1>
+    <form>
+        <fieldset>
+            <legend>Dados</legend>
+            <label>Nome</label><br>
+            <input type="text" name="nome"><br><br>
+
+            <label>Email</label><br>
+            <input type="email" name="email"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Serviços desejados</legend>
+            <input type="checkbox" name="compraPassagem">Compra de passagem<br>
+            <input type="checkbox" name="Reserva">Reserva de passagens<br>
+            <input type="checkbox" name="aluguelVeiculo">Aluguel de veiculos<br><br>
+            <fieldset>
+                <legend>Forma de pagamento</legend>
+                <label>
+                    <input type="radio" name="credito" value="Credito">Cartao de credito
+                </label>
+                <label>
+                    <br><input type="radio" name="boleto" value="Boleto">Boleto
+                </label>
+                <label>
+                    <br><input type="radio" name="pix" value="Pix">Pix
+                </label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Prazo de pagamento</legend>
+                <select name="prazoDePagamento">
+                    <option value="aVista">À Vista</option>
+                    <option value="cincoVezes">5x sem jutros</option>
+                    <option value="dezVezes">10x com juros</option>
+                </select>
+            </fieldset>
+        </fieldset>
+        <br>
+        <label>Comentario</label><br>
+        <textarea name="Comentario" rows="4"></textarea>
+        <br><br>
+        <button type="submit">Salvar</button>
+    </form>
+</body>
+
+</html>
